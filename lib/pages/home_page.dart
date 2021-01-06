@@ -59,36 +59,28 @@ class _HomePageState extends State<HomePage> {
               Icons.home,
             ),
             // Attending events
-            title: Text(
-              'Hosting',
-            ),
+            label: 'Hosting',
           ),
           BottomNavigationBarItem(
             icon: Icon(
               Icons.event,
             ),
             // Hosting events
-            title: Text(
-              'Attending',
-            ),
+            label: 'Attending',
           ),
           BottomNavigationBarItem(
             icon: Icon(
-              Icons.search,
+              Icons.map,
             ),
             // Search for events + display map for public events around you
-            title: Text(
-              'Search',
-            ),
+            label: 'Map',
           ),
           BottomNavigationBarItem(
             icon: Icon(
               Icons.account_circle,
             ),
             // Account/Profile page + settings
-            title: Text(
-              'Account',
-            ),
+            label: 'Account',
           )
         ],
         currentIndex: _navBarSelectedIndex,
